@@ -1,0 +1,4 @@
+1. npm init
+2. npm i cypress
+3. npm i cypress-cucumber-preprocessor
+4. npm i prettier

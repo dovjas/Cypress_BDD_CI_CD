@@ -1,0 +1,25 @@
+{
+  "name": "cypress_bdd_ci_cd",
+  "version": "1.0.0",
+  "description": "Cypress BDD CI CD project",
+  "main": "index.js",
+  "scripts": {
+    "cy:dashboard": "cypress run --record --key 5454573d-29ec-4646-9d66-4aae50cb2d3a"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "DJ",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^3.2.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/cucumber-tests"
+  }
+}

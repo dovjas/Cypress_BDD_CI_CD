@@ -1,0 +1,14 @@
+# Cypress specific files
+/cypress/videos/
+/cypress/screenshots/
+/cypress/fixtures/
+
+# Local configuration file
+/cypress.json
+
+# Node modules
+/node_modules/
+
+# Temporary files
+.DS_Store
+.vscode
