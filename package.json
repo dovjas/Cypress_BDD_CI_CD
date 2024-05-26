@@ -4,6 +4,7 @@
   "description": "Cypress BDD CI CD project",
   "main": "index.js",
   "scripts": {
+    "start": "echo 'No start script defined'",
     "cy:run":"cypress run",
     "cy:dashboard": "cypress run --record --key 5454573d-29ec-4646-9d66-4aae50cb2d3a",
     "start-jenkins":"java -jar -jenkins.war --httpPort=8080 --enable-future-java "
